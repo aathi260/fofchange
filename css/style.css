@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+}
+.feed-heading{
+    margin-left:42%;
+    z-index: 1;
+    position: relative;
+}
+.line{
+    width: 14%;
+    background-color: #ffcc13;
+    height: 5px;
+    margin-left: 46%;
+
+}
+.feedback{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.padding {
+    padding: 5rem
+}
+
+.feed-card {
+    position: relative;
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+}
+
+.feed-card .card-body {
+    padding: 1rem 1rem
+}
+
+.feed-card.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.feed-card p {
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+    line-height: 2rem;
+}
+
+.card-title{
+    margin-bottom: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.profile {
+    margin-top: 160px;
+    margin-left: -70px;
+}
+
+.profile-pic {
+    margin-top: 90px;
+    width: 58px
+}
+
+.cust-name {
+    font-size: 18px;
+    color:#ffcc13
+}
+
+.cust-profession {
+    font-size: 15px
+}
+
+.items {
+    height: 50%;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.slick-slide {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:991.98px) {
+    .feedback{
+        height: 80%;
+        width: 98%;
+    }
+
+     .feed-heading{
+        margin-left:30%;
+        font-size: 20px;
+        color: black;
+    }
+    .line{
+        width: 13%;
+        background-color: #ffcc13;
+        height: 5px;
+        margin-left: 47%;
+        margin-top: -1%;
+    }
+    .padding {
+        padding: 1.5rem
+    }
+
+    .items {
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 100px;
+
+    }
+
+    .feed-card p{
+        font-size: 15px
+    }
+    .profile{
+        margin-top: 170%;
+    }
+   #jaya{
+       margin-top: 140%;
+   }
+   #jayas{
+       margin-top: -70%;
+   }
+   #sid{
+       margin-top: -40%;
+   }
+    .cust-name{
+        font-size: 20px;
+        margin-left: -17%;
+    }
+    .profile-pic {
+        margin-top: 0%;
+        width: 68px
+    }
+
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+
+}

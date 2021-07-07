@@ -1,0 +1,458 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.section3{
+  margin-top: 100px;
+}
+.Layout{
+    /* display: flex; */
+     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:75rem;
+}
+.inner_layout{
+    background-color: black;
+    width:100%;
+    height: 75rem;
+    opacity: 0.85;
+}
+.LayoutText{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 10rem;
+}
+.InnerText{
+    color:white;
+    margin-top: 50px;
+}
+.InnerText h2{
+    font-size: 35px;
+    width: 500px;
+}
+.RightSide{
+    /* display: block; */
+    position: relative;
+    width: 28rem;
+    height: 12rem;
+    top: 10px;
+      margin-left: 50px;
+}
+.RightContent{
+    position: relative;
+    top: 50px;
+    right: 150px;
+    color:white;
+    width: 420px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 1;
+}
+.RightButton{
+    position: relative;
+    top: 50px;
+    right: 150px;
+    width: 170px;
+   height: 49px;
+   background:#ffcc13;
+   padding: 10px;
+   text-align: center;
+   border-radius: 5px;
+   border-color: none;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   /* line-height: 25px; */
+   cursor: pointer;
+
+}
+
+.RightButton:hover{
+    background: white;
+  color:#ffcc13;
+  border: 0.5px solid rgba(243, 241, 239, 1);
+}
+
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.Progress_container{
+  margin-top: 150px;
+	width:100%;
+	height: 65vh;
+  /* background-color: red; */
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.progress_box{
+	width:290px;
+	height:350px;
+	background-color:white;
+	border-radius: 10px;
+	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 20px 10px;
+  transition: 0.5s ease-in-out;
+}
+.progress_model{
+  border-radius: 10px 10px 0 0;
+	height: 200px;
+	max-height: 100%;
+	max-width: 100%;
+}
+.progress_details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+}
+.progress_details h2{
+  font-size: 20px;
+	font-family: calibri;
+	font-weight: bold;
+	color:#6a6a74;
+	text-align: center;
+}
+.progress_details p{
+	font-family: calibri;
+	font-weight: bold;
+  width: 240px;
+	color:#6a6a74;
+	text-align: center;
+}
+
+.progress_box:hover{
+ transform: scale(1.1);
+}
+@media (min-width:320px) and (max-width:399px){
+    .Layout{
+        height: 70rem;
+    }
+    .inner_layout{
+        height: 70rem;
+    }
+    .LayoutText{
+    display:inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content:space-between;
+    height: 10rem;
+}
+.InnerText{
+    position: absolute;
+    color: white;
+   text-align: center;
+   top: 15px;
+   left: 20px;
+   margin-top: 0;
+}
+    .InnerText h2{
+        margin-top:0px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        width: 280px;
+    }
+
+    .RightSide{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    width: 300px;
+    height: 8rem;
+   margin-left: 0;
+}
+    .RightContent{
+        position: relative;
+        text-align: center;
+        top: 35px;
+        right: 0;
+        font-size: 12px;
+        width: 300px;
+        height: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        line-height: 18px;
+    }
+    .RightButton{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    width: 110px;
+   height: 39px;
+   font-size: 15px;
+   line-height: 17px;
+   margin-bottom: 10px;
+}
+.progress_box{
+  width: 290px;
+  height:350px;
+  margin: 0 25px;
+}
+.progress_box:hover{
+ transform: scale(1);
+}
+.progress_model{
+  height:250px;
+}
+.progress_details p{
+  font-size: 16px;
+  width: 250px;
+}
+}
+@media (min-width:400px) and (max-width:500px){
+    .Layout{
+        height: 70rem;
+    }
+       .inner_layout{
+        height: 70rem;
+    }
+    .LayoutText{
+    display:inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content:space-between;
+    height: 10rem;
+}
+.InnerText{
+    position: absolute;
+    color: white;
+   text-align: center;
+   top: 15px;
+   left: 30px;
+   margin-top: 0;
+}
+    .InnerText h2{
+        margin-top:0px ;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 400;
+        width: 350px;
+    }
+
+    .RightSide{
+    position: relative;
+    top: 50px;
+    left: 0;
+    width: 300px;
+    height: 8rem;
+   margin-left: 0;
+}
+    .RightContent{
+        position: relative;
+        text-align: center;
+        top: 35px;
+        right: 0;
+        font-size: 12px;
+        width: 350px;
+        height: 50px;
+        margin-left: 30px;
+        margin-right: 0;
+        margin-bottom: 30px;
+        line-height: 18px;
+    }
+    .RightButton{
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    width: 110px;
+   height: 39px;
+   font-size: 15px;
+   line-height: 17px;
+}
+.progress_box{
+  width: 290px;
+  height:350px;
+  margin: 0 66px;
+}
+.progress_box:hover{
+ transform: scale(1);
+}
+.progress_model{
+  height:250px;
+}
+.progress_details p{
+  font-size: 16px;
+  width: 250px;
+}
+}
+@media (min-width:501px) and (max-width:650px){
+  .Layout{
+      height: 70rem;
+  }
+
+  .inner_layout{
+      height: 70rem;
+  }
+  .InnerText{
+    margin-top: 60px;
+  }
+  .InnerText h2{
+      position: relative;
+      left: 10px;
+      width: 300px;
+      margin-top: 25px;
+      font-size: 27px;
+  }
+  .RightSide{
+      width: 10rem;
+      margin-left: 0;
+  }
+  .RightContent{
+      position: relative;
+      left: -90px;
+      font-size: 10px;
+      width: 200px;
+      line-height: 18px;
+  }
+  .RightButton{
+  position: relative;
+  top: 50px;
+  left: -90px;
+  width: 110px;
+ height: 39px;
+ font-size: 15px;
+ line-height: 17px;
+  }
+  .progress_box{
+    width: 290px;
+    height:350px;
+    margin: 0 15px;
+  }
+}
+@media  (min-width:651px) and (max-width:800px) {
+    .Layout{
+        height: 70rem;
+    }
+
+    .inner_layout{
+        height: 70rem;
+    }
+    .InnerText{
+      margin-top: 60px;
+    }
+    .InnerText h2{
+        position: relative;
+        left: -30px;
+        width: 300px;
+        margin-top: 25px;
+        font-size: 27px;
+    }
+    .RightSide{
+        width: 10rem;
+        margin-left: 0;
+    }
+    .RightContent{
+        position: relative;
+        left: -90px;
+        font-size: 15px;
+        width: 220px;
+        line-height: 18px;
+    }
+    .RightButton{
+    position: relative;
+    top: 50px;
+    left: -90px;
+    width: 110px;
+   height: 39px;
+   font-size: 15px;
+   line-height: 17px;
+    }
+    .progress_box{
+      width: 290px;
+      height:350px;
+      margin: 0 15px;
+    }
+}
+@media (min-width:801px) and (max-width:1200px){
+    .Layout{
+        height: 70rem;
+    }
+
+    .inner_layout{
+        height: 70rem;
+    }
+    .InnerText{
+      margin-top: 50px;
+    }
+    .InnerText h2{
+        margin-top: 25px;
+        position: relative;
+        left: 38px;
+        font-size: 32px;
+    }
+    .RightSide{
+      margin-left: 0px;
+      width: 25rem;
+    }
+    .RightContent{
+        position: relative;
+        width:290px;
+        top: 30px;
+        right: 35px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .RightButton{
+    position: relative;
+    top: 50px;
+    right: 35px;
+    width: 110px;
+   height: 39px;
+   font-size: 15px;
+   line-height: 17px;
+    }
+}
+@media (min-width:1201px) and (max-width:1440px){
+    .Layout{
+        height: 80rem;
+    }
+
+    .inner_layout{
+        height: 80rem;
+    }
+    .InnerText{
+      margin-top: 90px;
+    }
+    .InnerText h2{
+        margin-top: 25px;
+        position: relative;
+        left: -30px;
+        font-size: 40px;
+        width: 600px;
+    }
+    .RightSide{
+      margin-left: 0px;
+      width: 25rem;
+    }
+    .RightContent{
+        position: relative;
+        width:450px;
+        top: 65px;
+        right: 100px;
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .RightButton{
+    position: relative;
+    top: 80px;
+    right: 100px;
+    width: 180px;
+   height: 49px;
+   font-size: 20px;
+   line-height: 15px;
+    }
+}
